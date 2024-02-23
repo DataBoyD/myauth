@@ -37,9 +37,6 @@ message IsAdminRequest {
 message IsAdminResponse {
     bool is_admin = 1;
     bool is_user = 2;
-    bool is_debil = 3;
-
-
 }
 
 
