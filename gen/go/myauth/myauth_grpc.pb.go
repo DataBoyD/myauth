@@ -4,7 +4,7 @@
 // - protoc             v4.25.3
 // source: myauth/myauth.proto
 
-package myauthv4
+package myauthv5
 
 import (
 	context "context"
