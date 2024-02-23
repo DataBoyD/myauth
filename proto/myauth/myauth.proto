@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package auth;
 
-option go_package = "sidnev.myauth.v6;myauthv6";
+option go_package = "sidnev.myauth.v7;myauthv7";
 
 service Auth {
     rpc Register(RegisterRequest) returns (RegisterResponse);
@@ -36,7 +36,7 @@ message IsAdminRequest {
 
 message IsAdminResponse {
     bool is_admin = 1;
-    bool is_user = 2;
+    bool is_p = 2;
 }
 
 
