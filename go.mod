@@ -1,4 +1,4 @@
-module myauth
+module github.com/DataBoyD/myauth
 
 go 1.20
 
