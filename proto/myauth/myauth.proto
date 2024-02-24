@@ -37,7 +37,7 @@ message IsAdminRequest {
 message IsAdminResponse {
     bool is_admin = 1;
     bool is_p = 2;
-    bool is_twelve = 3;
+    bool is_fourteen = 3;
 
 }
 
